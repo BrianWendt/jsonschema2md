@@ -1,9 +1,9 @@
 {
-  "_from": "@adobe/jsonschema2md",
-  "_id": "@adobe/jsonschema2md@2.0.0",
+  "_from": "@brianwendt/jsonschema2md",
+  "_id": "@brianwendt/jsonschema2md@2.0.0",
   "_inBundle": false,
   "_integrity": "sha512-3kCKyCBSg+KlMgXWxwpG++jA1NPoUo1RMmnkSEBvgb04Pi0aCjeeQ2pxjrmejFtCG8FoqZvY+tIcPhwtq9mbNA==",
-  "_location": "/@adobe/jsonschema2md",
+  "_location": "/@brianwendt/jsonschema2md",
   "_phantomChildren": {
     "fast-deep-equal": "2.0.1",
     "fast-json-stable-stringify": "2.0.0",
@@ -13,10 +13,10 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "@adobe/jsonschema2md",
-    "name": "@adobe/jsonschema2md",
-    "escapedName": "@adobe%2fjsonschema2md",
-    "scope": "@adobe",
+    "raw": "@brianwendt/jsonschema2md",
+    "name": "@brianwendt/jsonschema2md",
+    "escapedName": "@brianwendt%2fjsonschema2md",
+    "scope": "@brianwendt",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -25,9 +25,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@adobe/jsonschema2md/-/jsonschema2md-2.0.0.tgz",
+  "_resolved": "https://registry.npmjs.org/@brianwendt/jsonschema2md/-/jsonschema2md-2.0.0.tgz",
   "_shasum": "4069a762333d9184772682e37d6699ea0d92b22d",
-  "_spec": "@adobe/jsonschema2md",
+  "_spec": "@brianwendt/jsonschema2md",
   "_where": "C:\\Users\\bwend00\\Documents\\GitHub\\dnd5e_json_character",
   "author": "",
   "bin": {
@@ -86,7 +86,7 @@
     "*.js": "eslint"
   },
   "main": "lib/main.js",
-  "name": "@adobe/jsonschema2md",
+  "name": "@brianwendt/jsonschema2md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adobe/jsonschema2md.git"
