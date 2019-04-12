@@ -40,7 +40,6 @@ This is an example schema with examples for multiple types and their constraints
 
 ## integer_threes
 
-
 Guess what number is valid
 
 `integer_threes`
@@ -64,7 +63,6 @@ Guess what number is valid
 
 ## interger_constrained
 
-
 Just a whole number. I don't like fractions. Don't get too small
 
 `interger_constrained`
@@ -87,7 +85,6 @@ Just a whole number. I don't like fractions. Don't get too small
 
 ## interger_unconstrained
 
-
 Just a whole number. I don't like fractions.
 
 `interger_unconstrained`
@@ -108,7 +105,6 @@ Just a whole number. I don't like fractions.
 
 
 ## number_constrained
-
 
 Just a number. Don't get too big.
 
@@ -131,7 +127,6 @@ Just a number. Don't get too big.
 
 ## number_unconstrained
 
-
 Just a number
 
 `number_unconstrained`
@@ -152,7 +147,6 @@ Just a number
 
 
 ## string_date
-
 
 A date-like string.
 
@@ -176,7 +170,6 @@ A date-like string.
 
 ## string_email
 
-
 An email-like string.
 
 `string_email`
@@ -198,7 +191,6 @@ An email-like string.
 
 
 ## string_hostname
-
 
 A hostname-like string.
 
@@ -222,7 +214,6 @@ A hostname-like string.
 
 ## string_ipv4
 
-
 An IPv4-like string.
 
 `string_ipv4`
@@ -245,7 +236,6 @@ An IPv4-like string.
 
 ## string_ipv6
 
-
 An IPv6-like string.
 
 `string_ipv6`
@@ -267,7 +257,6 @@ An IPv6-like string.
 
 
 ## string_length
-
 
 A string with minumum and maximum length
 
@@ -300,7 +289,6 @@ A string with minumum and maximum length
 
 
 ## string_pattern
-
 
 A string following a regular expression
 
@@ -361,7 +349,6 @@ All instances must conform to this regular expression
 
 ## string_pattern_noexample
 
-
 A string following a regular expression
 
 `string_pattern_noexample`
@@ -389,7 +376,6 @@ All instances must conform to this regular expression
 
 
 ## string_pattern_singleexample
-
 
 A string following a regular expression
 
@@ -425,7 +411,6 @@ All instances must conform to this regular expression
 
 ## string_unconstrained
 
-
 A simple string, without any constraints.
 
 `string_unconstrained`
@@ -452,7 +437,6 @@ A simple string, without any constraints.
 
 
 ## string_uri
-
 
 A URI.
 

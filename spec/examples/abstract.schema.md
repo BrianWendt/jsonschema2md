@@ -25,7 +25,6 @@ This is an abstract schema. It has `definitions`, but does not declare any prope
 
 ## bar
 
-
 A unique identifier given to every addressable thing.
 
 `bar`
@@ -47,7 +46,6 @@ A unique identifier given to every addressable thing.
 
 ## foo
 
-
 A unique identifier given to every addressable thing.
 
 `foo`
@@ -68,7 +66,6 @@ A unique identifier given to every addressable thing.
 
 
 ## nonfoo
-
 
 This is not foo.
 

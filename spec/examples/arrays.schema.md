@@ -32,7 +32,6 @@ This is an example schema with examples for multiple array types and their const
 
 ## JoinTypelist
 
-
 An array of simple objects
 
 `JoinTypelist`
@@ -65,7 +64,6 @@ All items must be of the type:
 
 #### foo
 
-    
 A simple string.
 
 `foo`
@@ -106,7 +104,6 @@ hello
 
 #### bar
 
-    
 A simple string.
 
 `bar`
@@ -143,7 +140,6 @@ world
 
 ## boollist
 
-
 This is an array
 
 `boollist`
@@ -168,7 +164,6 @@ All items must be of the type:
 
 
 ## coordinatelist
-
 
 This is an array of coordinates in three-dimensional space.
 
@@ -206,7 +201,6 @@ A coordinate, specified by `x`, `y`, and `z` values
 
 ## intlist
 
-
 This is an array
 
 `intlist`
@@ -235,7 +229,6 @@ All items must be of the type:
 
 ## list
 
-
 This is an array
 
 `list`
@@ -263,7 +256,6 @@ All items must be of the type:
 
 ## listlist
 
-
 This is an array of arrays
 
 `listlist`
@@ -287,7 +279,6 @@ Nested array type: `array`
 
 
 ## numlist
-
 
 This is an array
 
@@ -317,7 +308,6 @@ All items must be of the type:
 
 ## objectlist
 
-
 An array of simple objects
 
 `objectlist`
@@ -344,7 +334,6 @@ All items must be of the type:
 
 #### a
 
-    
 The a property
 
 `a`
@@ -367,7 +356,6 @@ The a property
 
 #### b
 
-    
 The b property
 
 `b`
@@ -395,7 +383,6 @@ The b property
 
 
 ## stringlistlist
-
 
 This is an array of arrays of strings
 

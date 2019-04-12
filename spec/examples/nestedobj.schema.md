@@ -22,7 +22,6 @@ https://example.com/schemas/nestedobject
 
 ## settings
 
-
 settings
 
 `settings`
@@ -45,7 +44,6 @@ settings
 
 #### collaborators
 
-    
 collaborators
 
 `collaborators`
@@ -67,7 +65,6 @@ collaborators
 
 #### id
 
-    
 
 `id`
 

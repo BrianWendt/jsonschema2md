@@ -14,7 +14,6 @@ This is an example schema that uses types defined in other schemas.
 | [Abstract](../abstract.md) | Extensible | [Status](../status.md) | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------------------------|------------|------------------------|--------------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | No | Forbidden | Permitted | [complex.schema.json](complex.schema.json) |
-
 ## Schema Hierarchy
 
 * Complex References  `https://example.com/schemas/complex`
@@ -37,7 +36,6 @@ This is an example schema that uses types defined in other schemas.
 | `*` | any | Additional | Yes | this schema *allows* additional properties |
 
 ## and
-
 
 Number in a range
 
@@ -75,7 +73,6 @@ Number in a range
 
 
 ## or
-
 
 String or number…
 
@@ -136,7 +133,6 @@ String or number…
 
 #### foo
 
-    
 A unique identifier given to every addressable thing.
 
 `foo`
@@ -159,7 +155,6 @@ A unique identifier given to every addressable thing.
 
 #### nonfoo
 
-    
 This is not foo.
 
 `nonfoo`
@@ -225,7 +220,6 @@ All items must be of the type:
 
 
 ## xor
-
 
 Exclusive choice.
 

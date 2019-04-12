@@ -36,19 +36,18 @@ aks.
 
 | Property | Type | Required | Nullable | Defined by |
 |----------|------|----------|----------|------------|
-| [@id](#id) | `string` | **Required**  | No | Definitions (this schema) |
+| [@id](#id) | `string` | Optional  | No | Definitions (this schema) |
 | [id](#id-1) | `string` | **Required**  | No | Definitions (this schema) |
 | [meta:id](#metaid) | `string` | Optional  | No | Definitions (this schema) |
 | `*` | any | Additional | Yes | this schema *allows* additional properties |
 
 ## @id
 
-
 An `id` with an `@` in front of it. The `@` stands for "dot com"
 
 `@id`
 
-* is **required**
+* is optional
 * type: `string`
 * defined in this schema
 
@@ -65,7 +64,6 @@ An `id` with an `@` in front of it. The `@` stands for "dot com"
 
 
 ## id
-
 
 A unique identifier given to every addressable thing.
 
@@ -88,7 +86,6 @@ A unique identifier given to every addressable thing.
 
 
 ## meta:id
-
 
 An about ids. It is meta. If you are confused, send an email to the address specified in this property value.
 

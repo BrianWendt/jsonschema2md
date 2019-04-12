@@ -41,9 +41,11 @@ var argv = require('optimist')
   .default('v', '07')
   .describe('n', 'Do not generate a README.md file in the output directory')
   .describe('link-*', 'Add this file as a link the explain the * attribute, e.g. --link-abstract=abstract.md')
+  
   .describe('t', 'path to directory containing Embedded JavaScript (ejs) templates')
   .alias('t', 'template')
   .default('t', null)
+  
   .check(function(args) {
     if (!fs.existsSync(args.input)) {
       throw 'Input file "' + args.input + '" does not exist!';
@@ -125,8 +127,8 @@ if (target.isDirectory()) {
       Schema.setSchemaPathMap(schemaPathMap);
       return Promise.reduce(files, readSchemaFile, schemaPathMap)
         .then(schemaMap => {
-          logger.info('finished reading all *.%s files in %s, beginning processing….', schemaExtension, schemaPath, templatesDir);
-          return Schema.process(schemaMap, schemaPath, outDir, schemaDir, metaElements, readme, docs);
+          logger.info('finished reading all *.%s files in %s, beginning processing….', schemaExtension, schemaPath);
+          return Schema.process(schemaMap, schemaPath, outDir, schemaDir, metaElements, readme, docs, templatesDir);
         })
         .then(() => {
           logger.info('Processing complete.');

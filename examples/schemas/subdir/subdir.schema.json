@@ -22,6 +22,6 @@
     }
   },
   "allOf": [
-    {"$ref": "#/definitions/content"}
+    {"$ref": "#/definitions/id"}
   ]
 }

@@ -27,7 +27,6 @@ This schema test type arrays and nullable types
 
 ## null
 
-
 This is just nothing
 
 `null`
@@ -46,7 +45,6 @@ This property can only have the value `null`.
 
 
 ## string-or-null
-
 
 Nullable string
 
@@ -69,7 +67,6 @@ Nullable string
 
 ## string-or-number
 
-
 Types can be many things
 
 `string-or-number`
@@ -90,7 +87,6 @@ Either one of:
 
 
 ## string-or-number-null
-
 
 Types can be many things, even nothing at all.
 

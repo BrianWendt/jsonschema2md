@@ -24,7 +24,6 @@ This is a schema which is currently in the `stabilizing` status.
 
 ## id
 
-
 A unique identifier given to every addressable thing.
 
 `id`

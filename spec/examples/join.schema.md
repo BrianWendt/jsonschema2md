@@ -33,7 +33,6 @@ This is an example of a JSON schema with only a join type key. Here a 'oneOf'.
 
 #### foo
 
-    
 A simple string.
 
 `foo`
@@ -74,7 +73,6 @@ hello
 
 #### bar
 
-    
 A simple string.
 
 `bar`

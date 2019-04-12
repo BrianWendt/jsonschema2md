@@ -42,7 +42,6 @@ This is an example schema with *multiple* examples. Too many examples? There can
 
 ## bar
 
-
 A simple string.
 
 `bar`
@@ -74,7 +73,6 @@ A simple string.
 
 
 ## foo
-
 
 A simple string.
 

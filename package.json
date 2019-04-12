@@ -1,19 +1,49 @@
 {
-  "name": "brianwendt/jsonschema2md",
-  "description": "Validate and document complex JSON Schemas the easy way.",
-  "version": "1.1.1",
-  "main": "lib/main.js",
+  "_from": "@adobe/jsonschema2md",
+  "_id": "@adobe/jsonschema2md@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-3kCKyCBSg+KlMgXWxwpG++jA1NPoUo1RMmnkSEBvgb04Pi0aCjeeQ2pxjrmejFtCG8FoqZvY+tIcPhwtq9mbNA==",
+  "_location": "/@adobe/jsonschema2md",
+  "_phantomChildren": {
+    "fast-deep-equal": "2.0.1",
+    "fast-json-stable-stringify": "2.0.0",
+    "json-schema-traverse": "0.4.1",
+    "uri-js": "4.2.2"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@adobe/jsonschema2md",
+    "name": "@adobe/jsonschema2md",
+    "escapedName": "@adobe%2fjsonschema2md",
+    "scope": "@adobe",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@adobe/jsonschema2md/-/jsonschema2md-2.0.0.tgz",
+  "_shasum": "4069a762333d9184772682e37d6699ea0d92b22d",
+  "_spec": "@adobe/jsonschema2md",
+  "_where": "C:\\Users\\bwend00\\Documents\\GitHub\\dnd5e_json_character",
+  "author": "",
   "bin": {
     "jsonschema2md": "./cli.js"
   },
-  "scripts": {
-    "semantic-release": "semantic-release",
-    "commit": "git-cz",
-    "lint": "eslint .",
-    "lint-fix": "eslint . --fix",
-    "start": "node cli.js",
-    "test": "npm run lint && jasmine",
-    "cover": "istanbul cover --root lib --print detail jasmine"
+  "bugs": {
+    "url": "https://github.com/adobe/jsonschema2md/issues"
+  },
+  "bundleDependencies": false,
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "npx lint-staged"
+    }
   },
   "dependencies": {
     "ajv": "^6.5.4",
@@ -30,6 +60,8 @@
     "valid-url": "1.0.9",
     "winston": "^3.1.0"
   },
+  "deprecated": false,
+  "description": "Validate and document complex JSON Schemas the easy way.",
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/git": "^7.0.8",
@@ -48,24 +80,25 @@
   "engines": {
     "node": ">= 6.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/adobe/jsonschema2md.git"
-  },
-  "bugs": {
-    "url": "https://github.com/adobe/jsonschema2md/issues"
-  },
+  "homepage": "https://github.com/adobe/jsonschema2md#readme",
   "license": "Apache-2.0",
-  "author": "",
   "lint-staged": {
     "*.js": "eslint"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    },
-    "ghooks": {
-      "pre-commit": "npx lint-staged"
-    }
-  }
+  "main": "lib/main.js",
+  "name": "@adobe/jsonschema2md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adobe/jsonschema2md.git"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "cover": "istanbul cover --root lib --print detail jasmine",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "semantic-release": "semantic-release",
+    "start": "node cli.js",
+    "test": "npm run lint && jasmine"
+  },
+  "version": "2.0.0"
 }

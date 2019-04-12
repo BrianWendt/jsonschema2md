@@ -14,7 +14,6 @@ This is an extending schema. It is extending another extending schema. It pulls 
 | [Abstract](../abstract.md) | Extensible | [Status](../status.md) | Identifiable | Custom Properties | Additional Properties | Defined In |
 |----------------------------|------------|------------------------|--------------|-------------------|-----------------------|------------|
 | Can be instantiated | Yes | Experimental | Yes | Forbidden | Permitted | [deepextending.schema.json](deepextending.schema.json) |
-
 ## Schema Hierarchy
 
 * Deeply Extending `https://example.com/schemas/deepextending`
@@ -37,7 +36,6 @@ This is an extending schema. It is extending another extending schema. It pulls 
 
 ## @id
 
-
 An `id` with an `@` in front of it. The `@` stands for "dot com"
 
 `@id`
@@ -59,7 +57,6 @@ An `id` with an `@` in front of it. The `@` stands for "dot com"
 
 
 ## bar
-
 
 A horse walks into it.
 
@@ -92,9 +89,7 @@ A horse walks into it.
 
 
 ## baz
-
 ### BAAAZ!
-
 
 This property has a unique name to demonstrate it's uniqueness.
 
@@ -123,7 +118,6 @@ This property has a unique name to demonstrate it's uniqueness.
 
 ## hey
 
-
 A unique identifier given to every addressable thing.
 
 `hey`
@@ -144,7 +138,6 @@ A unique identifier given to every addressable thing.
 
 
 ## id
-
 
 A unique identifier given to every addressable thing.
 
@@ -167,7 +160,6 @@ A unique identifier given to every addressable thing.
 
 
 ## meta:id
-
 
 An about ids. It is meta. If you are confused, send an email to the address specified in this property value.
 
