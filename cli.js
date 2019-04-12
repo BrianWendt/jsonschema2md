@@ -41,6 +41,9 @@ var argv = require('optimist')
   .default('v', '07')
   .describe('n', 'Do not generate a README.md file in the output directory')
   .describe('link-*', 'Add this file as a link the explain the * attribute, e.g. --link-abstract=abstract.md')
+  .describe('t', 'path to directory containing Embedded JavaScript (ejs) templates')
+  .alias('t', 'template')
+  .default('t', null)
   .check(function(args) {
     if (!fs.existsSync(args.input)) {
       throw 'Input file "' + args.input + '" does not exist!';
@@ -76,6 +79,7 @@ var schemaPathMap = {};
 var metaElements = {};
 var schemaPath = path.resolve(argv.d);
 var outDir = path.resolve(argv.o);
+var templatesDir = path.resolve(argv.t);
 var schemaDir = argv.x === '-' ? '' : argv.x ? path.resolve(argv.x) : outDir;
 var target = fs.statSync(schemaPath);
 const readme = argv.n !== true;
@@ -121,7 +125,7 @@ if (target.isDirectory()) {
       Schema.setSchemaPathMap(schemaPathMap);
       return Promise.reduce(files, readSchemaFile, schemaPathMap)
         .then(schemaMap => {
-          logger.info('finished reading all *.%s files in %s, beginning processing….', schemaExtension, schemaPath);
+          logger.info('finished reading all *.%s files in %s, beginning processing….', schemaExtension, schemaPath, templatesDir);
           return Schema.process(schemaMap, schemaPath, outDir, schemaDir, metaElements, readme, docs);
         })
         .then(() => {
@@ -143,7 +147,7 @@ if (target.isDirectory()) {
       Schema.setAjv(ajv);
       Schema.setSchemaPathMap(schemaPathMap);
       logger.info('finished reading %s, beginning processing....', schemaPath);
-      return Schema.process(schemaMap, schemaPath, outDir, schemaDir, metaElements, false, docs);
+      return Schema.process(schemaMap, schemaPath, outDir, schemaDir, metaElements, false, docs, templatesDir);
     })
     .then(() => {
       logger.info('Processing complete.');
